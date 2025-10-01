@@ -1,0 +1,6 @@
+@PatioApi_HostAddress = http://localhost:5204
+
+GET {{PatioApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
