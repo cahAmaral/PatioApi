@@ -98,13 +98,7 @@ git clone https://github.com/cahAmaral/PatioApi.git
 cd patioapi
 ```
 
-2. Restaurar pacotes NuGet:
-
-```bash
-dotnet restore
-```
-
-3. Atualizar a string de conexão no `appsettings.json`:
+2. Atualizar a string de conexão no `appsettings.json`:
 
 ```json
 "ConnectionStrings": {
@@ -112,7 +106,7 @@ dotnet restore
 }
 ```
 
-4. Rodar a API:
+3. Rodar a API:
 
 ```bash
 dotnet run
